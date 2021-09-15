@@ -2,7 +2,12 @@
 
 Dashboard:
 
-https://public.tableau.com/app/profile/vishu.gupta/viz/TestClair/Dashboard1
+    https://public.tableau.com/app/profile/vishu.gupta/viz/TestClair/Dashboard1
+
+Data Used:
+
+Online Retail Dataset
+    https://archive.ics.uci.edu/ml/datasets/online+retail#
 
 Process Flow:
 
@@ -50,3 +55,9 @@ Tables:
 
     StockCode   Description    UnitPrice    Instances
     varchar(5)  varchar(150)   Numeric      Integer
+
+Technologies Used:
+
+    1. PySpark
+    2. PostgreSQL
+    
