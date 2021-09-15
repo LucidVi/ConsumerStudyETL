@@ -2,7 +2,7 @@
 
 Dashboard:
 
-    https://public.tableau.com/app/profile/vishu.gupta/viz/TestClair/Dashboard1
+   https://public.tableau.com/app/profile/vishu.gupta/viz/TestClair/Dashboard1
 
 Data Used:
 
@@ -60,4 +60,5 @@ Technologies Used:
 
     1. PySpark
     2. PostgreSQL
+    3. Pandas
     
