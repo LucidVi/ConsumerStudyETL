@@ -67,7 +67,7 @@ To Implement:
     1. First download the data from the link.
     
     2. Create a python virtual environment and run 
-         $ pip install requirement.txt 
+         $ pip install requirements.txt 
        this will install all the dependencies needed for the project to run.
     
     3. Have the JDBC driver path correctly defined when initializing the sparkSession
