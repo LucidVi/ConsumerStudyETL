@@ -36,7 +36,21 @@ Process Flow:
     9.  Once we have updated both the "stock_info" and "retail_agg" (The aggregate table in the database). 
         We perfor an INNER JOIN on "StockCode" on both these tables to get an output of a csv file for us 
         to perform our visual analysis on and build the dashboard from.
+   
+Data Cleaning:
 
+        InvoiceDate is converted to timestamp.type
+        Following checks are done on the data:
+            · Invoice number should be integer and length 6
+            · Stock Code should be integer and length 5
+            · Quantity should be integer
+            · Invoice Date has to be timestamp.type
+            · UnitPrice is Double
+            · CustomerID should be integer of length 5
+        
+        No Null Values allowed in the final dataset
+        All Duplicates are removed from the table
+        Audit log is maintained for values not passing the checks.
 
 Tables:
 
