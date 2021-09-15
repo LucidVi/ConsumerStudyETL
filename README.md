@@ -1,5 +1,8 @@
 # Consumer Study 
 
+Dashboard:
+
+https://public.tableau.com/app/profile/vishu.gupta/viz/TestClair/Dashboard1
 
 Process Flow:
 
