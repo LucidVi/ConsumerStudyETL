@@ -33,9 +33,9 @@ Process Flow:
         ingested data are either simply inserted if new to the database or are used to update 
         UnitPrice of the exisitng items as well as check on the description.
 
-    9.  Once we have updated both the "stock_info" and "retail_agg" (The aggregate table in the database). We perform
-        and INNER JOIN on "StockCode" on both these tables to get an output of a csv file for us to perform our visual
-        analysis on.
+    9.  Once we have updated both the "stock_info" and "retail_agg" (The aggregate table in the database). 
+        We perfor an INNER JOIN on "StockCode" on both these tables to get an output of a csv file for us 
+        to perform our visual analysis on and build the dashboard from.
 
 
 Tables:
@@ -61,4 +61,17 @@ Technologies Used:
     1. PySpark
     2. PostgreSQL
     3. Pandas
+
+To Implement:
+
+    1. First download the data from the link.
     
+    2. Create a python virtual environment and run 
+         $ pip install requirement.txt 
+       this will install all the dependencies needed for the project to run.
+    
+    3. Have the JDBC driver path correctly defined when initializing the sparkSession
+    
+    4. Give the script a filepath, database, username and password.
+    
+    5. Run!
